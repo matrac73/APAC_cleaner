@@ -1,16 +1,14 @@
-import './App.css';
-
-import CustomNavBar from './components/NavBar';
-import CustomCard from './components/TotalCo2Card';
-import CustomBarChart from './components/SegmentsBarChart';
-import CustomLineChart from './components/SegmentsLineChart';
-import CustomDonutChart from './components/SegmentsDonutChart';
+import CustomNavBar from '../components/NavBar';
+import CustomCard from '../components/TotalCo2Card';
+import CustomBarChart from '../components/WasteBarChart';
+import CustomLineChart from '../components/WasteLineChart';
+import CustomDonutChart from '../components/WasteDonutChart';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function App() {
+function Waste() {
 
   return (
     <Container fluid>
@@ -50,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Waste;
