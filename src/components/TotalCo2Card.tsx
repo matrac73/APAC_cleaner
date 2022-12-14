@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import { total_co2_total } from './data'
+// import { total_co2_total } from './data'
 
 function CustomCard() {
   return (
