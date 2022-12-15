@@ -6,8 +6,8 @@ import {
   RecycledCans_co2,
   RecycledGlass_co2,
   RecycledPaper_co2,
-  RecycledPlastic_co2,
-  Waste_co2 } from './data';
+  RecycledPlastic_co2
+} from './data';
 import {
   Chart as ChartJS,
   CategoryScale,
