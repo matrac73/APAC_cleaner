@@ -8,11 +8,11 @@ function CustomNavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home"><img src="./logo.png" height={20} alt="" /> CO2 Cleaner APAC</Navbar.Brand>
+        <Navbar.Brand href="/"><img src="./logo.png" height={20} alt="" /> CO2 APAC Cleaner</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <NavDropdown title="Segments" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/Segments">
                 Segments

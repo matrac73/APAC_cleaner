@@ -5,12 +5,12 @@ function CustomCard() {
   return (
     <Card border="light" style={{ width: '18rem' }}>
       <Card.Header>
-        Total Consumption 
+        What is your personal emission ?
       </Card.Header>
       <Card.Body>
-        <script type="text/javascript">
-          document.write(total_co2_total);
-        </script>
+        <a href = 'https://www.nature.org/en-us/get-involved/how-to-help/carbon-footprint-calculator/'>
+          Click Here to discover
+        </a>
       </Card.Body>
     </Card>
   );

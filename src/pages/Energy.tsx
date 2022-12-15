@@ -1,5 +1,5 @@
 import CustomNavBar from '../components/NavBar';
-import CustomCard from '../components/TotalCo2Card';
+import CustomCard from '../components/PersonalEmissionCard';
 import CustomBarChart from '../components/EnergyBarChart';
 import CustomLineChart from '../components/EnergyLineChart';
 import CustomDonutChart from '../components/EnergyDonutChart';

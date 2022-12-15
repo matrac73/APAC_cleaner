@@ -1,9 +1,9 @@
 import './App.css';
 
 import CustomNavBar from './components/NavBar';
-import CustomCard from './components/TotalCo2Card';
-import CustomBarChart from './components/SegmentsBarChart';
-import CustomLineChart from './components/SegmentsLineChart';
+import CustomCard from './components/PersonalEmissionCard';
+import CustomBarChart from './components/TotalBarChart';
+import CustomLineChart from './components/TotalLineChart';
 import CustomDonutChart from './components/SegmentsDonutChart';
 
 import Container from 'react-bootstrap/Container';

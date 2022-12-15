@@ -388,16 +388,15 @@ export const RecycledPlastic = [
     0
 ];
 
-export const Energy_ratio = 2.6;
-export const Water_ratio = 200;
-export const General_ratio = 500;
-export const FoodWaste_ratio = 500;
-export const PlasticWaste_ratio = 500;
-export const RecycledCans_ratio = 500;
-export const RecycledGlass_ratio = 500;
-export const RecycledPaper_ratio = 500;
-export const RecycledPlastic_ratio = 500;
-export const Waste_ratio = 500
+export const Energy_ratio = 0.485;
+export const Water_ratio = 1.3;
+export const General_ratio = 5;
+export const FoodWaste_ratio = 2.6;
+export const PlasticWaste_ratio = 3;
+export const RecycledCans_ratio = 3.15;
+export const RecycledGlass_ratio = 0.49;
+export const RecycledPaper_ratio = 0.127;
+export const RecycledPlastic_ratio = 1.5;
 
 export const Energy_co2 = Energy.map(function (num, idx) {return Energy_ratio * num;});
 export const Water_co2 = Water.map(function (num, idx) {return Water_ratio * num;});

@@ -1,6 +1,6 @@
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
-import { Waste_co2_total } from './data';
+import { Energy_co2_total, Water_co2_total, Waste_co2_total } from './data';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -9,11 +9,15 @@ export const data = {
   datasets: [
     {
       label: 'Emission',
-      data: [Waste_co2_total],
+      data: [Energy_co2_total, Water_co2_total, Waste_co2_total],
       backgroundColor: [
+        'rgba(150, 150, 150, 0.2)',
+        'rgba(150, 150, 150, 0.2)',
         'rgba(75, 192, 100, 0.4)',
       ],
       borderColor: [
+        'rgba(150, 150, 150, 1)',
+        'rgba(150, 150, 150, 1)',
         'rgba(75, 192, 100, 1)',
       ],
       borderWidth: 1,
